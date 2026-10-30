@@ -1,0 +1,47 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Large Pre-trained Models
+models/
+demo/models/
+
+# Trained Model Checkpoints & Pickles
+phase3_models/
+phase4_models/
+
+# Large Datasets & Outputs
+phase1_output/
+phase4_output/
+phase5_output/
+
+# Large FAISS index
+kg_data/*.index
+
+# Third-party Repos (cloned dependencies)
+FakeClaim-main/
+Multi-Fake-DetectiVE/
+python-goose-develop/
+ru22fact-main/
+
+# Word Documents (large binary files)
+*.docx
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.swp
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

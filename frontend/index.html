@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Disinfo Shield — Fake Tweet & News Verification Engine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Top Navbar -->
+        <header class="navbar">
+            <div class="nav-brand">
+                <div class="brand-logo-badge">DS</div>
+                <div>
+                    <h1>AI DISINFO SHIELD</h1>
+                    <p class="brand-tagline">Multimodal Knowledge-Graph Fake Tweet & News Verification Engine</p>
+                </div>
+            </div>
+            <div class="nav-status">
+                <span class="status-pill status-active"><span class="dot green"></span> System Online</span>
+                <span class="status-pill"><span class="dot blue"></span> FAISS KG Active</span>
+                <span class="status-pill" id="self-update-pill"><span class="dot purple"></span> Self-Updater Active</span>
+            </div>
+        </header>
+
+        <!-- Main Workspace -->
+        <main class="main-content">
+            <!-- Hero & Self-Updating Engine Header Bar -->
+            <section class="hero-banner">
+                <div class="hero-text">
+                    <h2>Autonomous Fake Tweet & News Detection Engine</h2>
+                    <p>Fusing Twitter Handle Credibility, SourceRank Domain Metrics, DeBERTa-v3 Factual Claim Segmentation, FAISS Knowledge-Graph Candidate Retrieval, and Vision-Language Alignment.</p>
+                </div>
+
+                <!-- Live Self-Updating Engine Control Box -->
+                <div class="self-update-widget">
+                    <div class="widget-header">
+                        <div class="widget-title">
+                            <div>
+                                <h3>Self-Updating Engine</h3>
+                                <span class="widget-subtitle" id="last-update-time">Last Updated: Just now</span>
+                            </div>
+                        </div>
+                        <div class="widget-badge" id="countdown-badge">Next Update in 04:59</div>
+                    </div>
+                    <div class="widget-controls">
+                        <div class="control-group">
+                            <label for="update-interval-select">Interval:</label>
+                            <select id="update-interval-select" class="select-input">
+                                <option value="60">1 Minute</option>
+                                <option value="300" selected>5 Minutes</option>
+                                <option value="900">15 Minutes</option>
+                                <option value="1800">30 Minutes</option>
+                            </select>
+                        </div>
+                        <button id="btn-trigger-update" class="btn btn-secondary">
+                            <span>Trigger Self-Update Now</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Verification Playground & Live Dashboard Split -->
+            <div class="grid-2col">
+                <!-- Left Panel: Tweet & News Claim Input -->
+                <div class="card card-input">
+                    <div class="card-header">
+                        <h3>Fake Tweet & News Analyzer</h3>
+                        <span class="badge badge-purple">5-Phase Pipeline</span>
+                    </div>
+
+                    <!-- Preset Tweet Examples Chips -->
+                    <div class="preset-section">
+                        <span class="preset-label">Try Preset Examples:</span>
+                        <div class="preset-chips">
+                            <button class="chip chip-fake" data-type="fake1">Fake Tweet: Military Secret Base</button>
+                            <button class="chip chip-fake" data-type="fake2">Fake Tweet: Water Poisoning</button>
+                            <button class="chip chip-real" data-type="real1">Real Tweet: Reuters Aid Package</button>
+                            <button class="chip chip-real" data-type="real2">Real Tweet: BBC Health Report</button>
+                        </div>
+                    </div>
+
+                    <form id="verify-form" class="form-group">
+                        <label for="claim_text">Tweet Text / News Headline / Tweet URL:</label>
+                        <textarea id="claim_text" rows="4" placeholder="Paste Tweet text, URL, or news claim (e.g. 'BREAKING: Leaked documents PROVE military secret base discovered under Kyiv! @conspiracy_daily')..." required></textarea>
+
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="source_domain">Source News Domain / Platform:</label>
+                                <input type="text" id="source_domain" placeholder="e.g. twitter.com, reuters.com, ru22fact" value="twitter.com">
+                            </div>
+                            <div class="form-field">
+                                <label for="image_url">Associated Image URL (Optional):</label>
+                                <input type="text" id="image_url" placeholder="https://example.com/tweet_photo.jpg">
+                            </div>
+                        </div>
+
+                        <button type="submit" id="btn-submit" class="btn btn-primary">
+                            <span>Execute Verification Pipeline</span>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Right Panel: Verification Output Results -->
+                <div class="card card-results" id="results-card">
+                    <div class="card-header">
+                        <h3>Verification Verdict & Signal Breakdown</h3>
+                        <span id="verdict-timestamp" class="badge">Awaiting Input</span>
+                    </div>
+
+                    <div id="results-placeholder" class="placeholder-state">
+                        <p>Submit a tweet or news statement above to inspect instant 5-phase analysis & verification verdict.</p>
+                    </div>
+
+                    <div id="results-content" class="results-content hidden">
+                        <!-- Verdict Summary Badge -->
+                        <div class="verdict-banner" id="verdict-banner">
+                            <div class="verdict-badge-large" id="verdict-badge">REAL</div>
+                            <div class="verdict-details">
+                                <div class="verdict-conf-label">Meta-Ensemble Confidence</div>
+                                <div class="verdict-conf-value" id="verdict-confidence">94.8%</div>
+                            </div>
+                        </div>
+
+                        <!-- Class Probabilities Progress Bars -->
+                        <div class="prob-bars">
+                            <div class="prob-item">
+                                <div class="prob-label"><span>REAL</span><span id="prob-real-val">0.0%</span></div>
+                                <div class="progress-bg"><div class="progress-bar bar-real" id="prob-real-bar"></div></div>
+                            </div>
+                            <div class="prob-item">
+                                <div class="prob-label"><span>FAKE</span><span id="prob-fake-val">0.0%</span></div>
+                                <div class="progress-bg"><div class="progress-bar bar-fake" id="prob-fake-bar"></div></div>
+                            </div>
+                            <div class="prob-item">
+                                <div class="prob-label"><span>SUSPICIOUS</span><span id="prob-suspicious-val">0.0%</span></div>
+                                <div class="progress-bg"><div class="progress-bar bar-suspicious" id="prob-suspicious-bar"></div></div>
+                            </div>
+                        </div>
+
+                        <!-- Phase Breakdown Grid -->
+                        <div class="phase-grid">
+                            <div class="phase-card">
+                                <div class="phase-title">Phase 1: Tweet Stats</div>
+                                <div class="phase-metric" id="p1-metric">Tokens: --</div>
+                                <div class="phase-sub" id="p1-sub">Cleaned Text Tokens</div>
+                            </div>
+                            <div class="phase-card">
+                                <div class="phase-title">Phase 2: KG Search</div>
+                                <div class="phase-metric" id="p2-metric">FAISS: --</div>
+                                <div class="phase-sub" id="p2-sub">Triple Vector Retrieval</div>
+                            </div>
+                            <div class="phase-card">
+                                <div class="phase-title">Phase 3A: SourceRank</div>
+                                <div class="phase-metric" id="p3a-metric">Rating: --</div>
+                                <div class="phase-sub" id="p3a-sub">Domain & Handle Rank</div>
+                            </div>
+                            <div class="phase-card">
+                                <div class="phase-title">Phase 3B: DeBERTa</div>
+                                <div class="phase-metric" id="p3b-metric">Factuality: --</div>
+                                <div class="phase-sub" id="p3b-sub">Factual Claim Score</div>
+                            </div>
+                            <div class="phase-card">
+                                <div class="phase-title">Phase 4: Multimodal</div>
+                                <div class="phase-metric" id="p4-metric">Cross-Sim: --</div>
+                                <div class="phase-sub" id="p4-sub">Vision-Text Alignment</div>
+                            </div>
+                            <div class="phase-card highlight">
+                                <div class="phase-title">Phase 5: Meta-Ensemble</div>
+                                <div class="phase-metric" id="p5-metric">Verdict: --</div>
+                                <div class="phase-sub" id="p5-sub">Final Calibrated Output</div>
+                            </div>
+                        </div>
+
+                        <!-- Rationale Summary -->
+                        <div class="explanation-box" id="explanation-text">
+                            Explanation will appear here.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Self-Updating Engine Live Logs Stream -->
+            <section class="section-container">
+                <div class="section-header">
+                    <h2>Self-Updating Engine — Live Background Audit Feed</h2>
+                    <p>Real-time stream of background model updates, Knowledge Graph triple ingestions, and domain credibility recalculations.</p>
+                </div>
+                <div class="card card-logs">
+                    <div class="log-stream-container" id="log-stream-container">
+                        <div class="log-entry">
+                            <span class="log-time">[System]</span>
+                            <span class="log-msg">Connecting to Self-Updating Engine background stream...</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Architecture & Data Flow Visualizer -->
+            <section class="section-container">
+                <div class="section-header">
+                    <h2>Proposed System Architecture & Data Flow</h2>
+                    <p>Modular processing flow from raw claim intake to multi-agent feature fusion & final verdict output.</p>
+                </div>
+                <div class="card card-arch">
+                    <div class="arch-flow">
+                        <div class="flow-step">
+                            <div class="step-num">01</div>
+                            <div class="step-title">Intake & Parsing</div>
+                            <div class="step-desc">Tweet / News Claim + Handle Parsing</div>
+                        </div>
+                        <div class="flow-arrow">&rarr;</div>
+                        <div class="flow-step">
+                            <div class="step-num">02</div>
+                            <div class="step-title">Phase 1 Preprocess</div>
+                            <div class="step-desc">Token Normalization & Sensationalism</div>
+                        </div>
+                        <div class="flow-arrow">&rarr;</div>
+                        <div class="flow-step">
+                            <div class="step-num">03</div>
+                            <div class="step-title">Phase 2 KG Search</div>
+                            <div class="step-desc">ACLED/SIPRI FAISS Vector Retrieval</div>
+                        </div>
+                        <div class="flow-arrow">&rarr;</div>
+                        <div class="flow-step">
+                            <div class="step-num">04</div>
+                            <div class="step-title">Phase 3 Dual Engine</div>
+                            <div class="step-desc">SourceRank XGB + DeBERTa Segmenter</div>
+                        </div>
+                        <div class="flow-arrow">&rarr;</div>
+                        <div class="flow-step">
+                            <div class="step-num">05</div>
+                            <div class="step-title">Phase 4 Multimodal</div>
+                            <div class="step-desc">Vision Projection & Consistency</div>
+                        </div>
+                        <div class="flow-arrow">&rarr;</div>
+                        <div class="flow-step highlight-step">
+                            <div class="step-num">06</div>
+                            <div class="step-title">Phase 5 Meta Stacking</div>
+                            <div class="step-desc">Calibrated Verdict (94.83% Acc)</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Parameter Evaluation Graphs Suite -->
+            <section class="section-container">
+                <div class="section-header">
+                    <h2>Empirical Evaluation & Parameter Graphs Suite</h2>
+                    <p>Comprehensive performance benchmarks across all design parameters and project phases.</p>
+                </div>
+
+                <!-- KPI Metric Cards -->
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <div class="kpi-title">Overall Accuracy</div>
+                        <div class="kpi-value">94.83%</div>
+                        <div class="kpi-sub">Held-Out Test Set (600 Samples)</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-title">Macro F1-Score</div>
+                        <div class="kpi-value">0.9403</div>
+                        <div class="kpi-sub">Multi-Class Average</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-title">Macro Precision</div>
+                        <div class="kpi-value">0.9421</div>
+                        <div class="kpi-sub">Across All Classes</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-title">Macro Recall</div>
+                        <div class="kpi-value">0.9385</div>
+                        <div class="kpi-sub">Across All Classes</div>
+                    </div>
+                </div>
+
+                <!-- Graph Viewer Gallery -->
+                <div class="card card-gallery">
+                    <div class="gallery-tabs">
+                        <button class="tab-btn active" data-graph="confusion_matrix">Confusion Matrix</button>
+                        <button class="tab-btn" data-graph="roc_pr_curves">ROC & PR Curves</button>
+                        <button class="tab-btn" data-graph="ablation_progression">Phase 1-5 Progression</button>
+                        <button class="tab-btn" data-graph="multimodal_performance">Phase 4 Multimodal</button>
+                        <button class="tab-btn" data-graph="feature_importance">SourceRank Importances</button>
+                        <button class="tab-btn" data-graph="data_overview">Phase 1 Data Audit</button>
+                    </div>
+                    <div class="gallery-body">
+                        <div class="graph-display">
+                            <img id="active-graph-img" src="/api/graphs/confusion_matrix" alt="Evaluation Parameter Graph">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>AI Disinfo Shield &copy; 2026 — DA2 Review Project Evaluation | Powered by FastAPI, DeBERTa, FAISS, & XGBoost</p>
+        </footer>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

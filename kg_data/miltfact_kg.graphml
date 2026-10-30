@@ -1,0 +1,854 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="source" attr.type="string"/>
+<key id="d2" for="edge" attr.name="date" attr.type="string"/>
+<key id="d1" for="edge" attr.name="location" attr.type="string"/>
+<key id="d0" for="edge" attr.name="relation" attr.type="string"/>
+<graph edgedefault="directed"><node id="Civilians (Palestine)"/>
+<node id="Strategic developments"/>
+<node id="Military Forces of Yemen (2017-) Houthi"/>
+<node id="Military Forces of Yemen (2022-2026) Presidential Leadership Council"/>
+<node id="Shams al-Rubayzi Tribal Militia (Yemen)"/>
+<node id="Mudaqqa al-Rubaizi Tribal Militia (Yemen)"/>
+<node id="Military Forces of Yemen (2022-2026) Presidential Leadership Council - STC Support and Reinforcement Brigades"/>
+<node id="AQAP: Al Qaeda in the Arabian Peninsula"/>
+<node id="Military Forces of Yemen (2022-2026) Presidential Leadership Council - STC"/>
+<node id="Operation Restoring Hope"/>
+<node id="Explosions/Remote violence"/>
+<node id="Military Forces of Israel (2022-)"/>
+<node id="Hamas Movement"/>
+<node id="Al Bukhamiss Tribal Militia (Syria)"/>
+<node id="Islamic State in Iraq and the Levant (ISIL)"/>
+<node id="Asayish (Syria)"/>
+<node id="QSD: Syrian Democratic Forces"/>
+<node id="Police Forces of Syria (2024-)"/>
+<node id="Civilians (Syria)"/>
+<node id="Global Coalition Against Daesh"/>
+<node id="Military Forces of Turkey (2016-)"/>
+<node id="Military Forces of Turkey (2016-) Gendarmerie"/>
+<node id="Unidentified Armed Group (Syria)"/>
+<node id="Police Forces of Russia (2000-) State Emergency Service"/>
+<node id="Unidentified Military Forces"/>
+<node id="Military Forces of Ukraine (2019-) Air Force"/>
+<node id="Military Forces of Russia (2000-) Navy"/>
+<node id="Military Forces of Russia (2000-)"/>
+<node id="Civilians (Russia)"/>
+<node id="Military Forces of Ukraine (2019-)"/>
+<node id="Military Forces of Russia (2000-) Air Force"/>
+<node id="Civilians (Ukraine)"/>
+<node id="Unidentified Armed Group (Ukraine)"/>
+<node id="West Coast Joint Forces"/>
+<node id="Unidentified Armed Group (International)"/>
+<node id="DFLP: Democratic Front for the Liberation of Palestine"/>
+<node id="Civilians (Yemen)"/>
+<node id="Qarmim Tribal Militia (Yemen)"/>
+<node id="Tanabla Tribal Militia (Yemen)"/>
+<node id="Settlers (Israel)"/>
+<node id="Civilians (Israel)"/>
+<node id="PIJ: Palestinian Islamic Jihad"/>
+<node id="Military Forces of Syria (2024-)"/>
+<node id="Unidentified Tribal Militia (Syria)"/>
+<node id="Anti-Military Operations Command Militia (Syria)"/>
+<node id="Unidentified Armed Group (Russia)"/>
+<node id="Military Forces of North Korea (2011-)"/>
+<node id="Police Forces of Ukraine (2019-)"/>
+<node id="Police Forces of Israel (2022-)"/>
+<node id="National Resistance (Guards of the Republic)"/>
+<node id="Unidentified Armed Group (Yemen)"/>
+<node id="Unidentified Armed Group (Ethiopia)"/>
+<node id="Military Forces of Yemen (2022-2026) Presidential Leadership Council - Border Guard"/>
+<node id="al-Jaabal Tribal Militia (Yemen)"/>
+<node id="Police Forces of Yemen (2022-2026) Presidential Leadership Council - STC Security Belt Forces"/>
+<node id="PIJ: Katibat Qabatiyah"/>
+<node id="Sahm Unit"/>
+<node id="Unidentified Armed Group (Palestine)"/>
+<node id="Al Nasser Salah al Deen Brigades"/>
+<node id="Military Forces of Ukraine (2019-) Main Directorate of Intelligence"/>
+<node id="Military Forces of Russia (2000-) National Guard"/>
+<node id="Police Forces of Russia (2000-) Federal Security Service"/>
+<node id="Unidentified Armed Group (Azerbaijan)"/>
+<node id="Police Forces of Ukraine (2019-) State Emergency Service of Ukraine"/>
+<node id="Military Forces of Ukraine (2019-) Marines"/>
+<node id="Police Forces of Ukraine (2019-) Security Service of Ukraine"/>
+<node id="al-Hanashi Tribal Militia (Yemen)"/>
+<node id="al-Hashidi Tribal Militia (Yemen)"/>
+<node id="Military Forces of Yemen (2022-2026) Presidential Leadership Council - STC Saiqa Brigades"/>
+<node id="Namliyah Communal Militia (Syria)"/>
+<node id="Police Forces of Ukraine (2019-) State Border Guard Service"/>
+<node id="UNDOF: United Nations Disengagement Observer Force (1974-)"/>
+<node id="Dhu Darwan Tribal Militia (Yemen)"/>
+<node id="al-Thamthama Tribal Militia (Yemen)"/>
+<node id="Aleppo Communal Militia (Syria)"/>
+<node id="Smugglers (Syria)"/>
+<node id="Military Forces of Russia (2000-) Military Police"/>
+<node id="Atesh"/>
+<node id="Giants Brigades"/>
+<node id="Fajih Tribal Militia (Yemen)"/>
+<node id="Hatik Tribal Militia (Yemen)"/>
+<node id="Police Forces of Syria (2024-) General Intelligence Services"/>
+<node id="Hezbollah"/>
+<node id="Military Forces of Russia (2000-) National Guard - Special Purpose Police Unit"/>
+<node id="Unidentified Clan Militia (Palestine)"/>
+<node id="Military Forces of Ukraine (2019-) Navy"/>
+<node id="Government of Israel (2022-)"/>
+<node id="Mujahideen Brigades"/>
+<node id="The Popular Forces - Ghassan al-Duhini Group"/>
+<node id="Radea Unit"/>
+<node id="Katibat Mukhayyam al Farah"/>
+<node id="PIJ: Katibat Zububah"/>
+<node id="al-Qayed Tribal Militia (Yemen)"/>
+<node id="al-Laaush Tribal Militia (Yemen)"/>
+<node id="Military Forces of Russia (2000-) Marines"/>
+<node id="Police Forces of Russian Occupation Government (2022-) State Emergency Service"/>
+<node id="Government of Russia (2000-)"/>
+<node id="NSWP: National Socialism / White Power Crew"/>
+<edge source="Civilians (Palestine)" target="Strategic developments">
+  <data key="d0">other</data>
+  <data key="d1">Morag, Palestine</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Yemen (2017-) Houthi" target="Military Forces of Yemen (2022-2026) Presidential Leadership Council">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Bab Ghaliq, Yemen</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Yemen (2017-) Houthi" target="Military Forces of Yemen (2022-2026) Presidential Leadership Council - STC">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Rayshan, Yemen</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Yemen (2017-) Houthi" target="Civilians (Yemen)">
+  <data key="d0">other</data>
+  <data key="d1">Uzlat Nawfan, Yemen</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Yemen (2017-) Houthi" target="Civilians (Israel)">
+  <data key="d0">air/drone_strike</data>
+  <data key="d1">Ramon Airport, Israel</data>
+  <data key="d2">2025-09-07</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Yemen (2017-) Houthi" target="Explosions/Remote violence">
+  <data key="d0">air/drone_strike</data>
+  <data key="d1">North Red Sea (centroid), Indian Ocean</data>
+  <data key="d2">2025-09-11</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Yemen (2017-) Houthi" target="National Resistance (Guards of the Republic)">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Al Kadhah, Yemen</data>
+  <data key="d2">2025-09-08</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Yemen (2017-) Houthi" target="Military Forces of Yemen (2022-2026) Presidential Leadership Council - STC Saiqa Brigades">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Habil Hanash, Yemen</data>
+  <data key="d2">2025-09-11</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Yemen (2017-) Houthi" target="Military Forces of Yemen (2022-2026) Presidential Leadership Council - STC Support and Reinforcement Brigades">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Al Masharih, Yemen</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Yemen (2017-) Houthi" target="Giants Brigades">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Aqabat al Qandha, Yemen</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Shams al-Rubayzi Tribal Militia (Yemen)" target="Mudaqqa al-Rubaizi Tribal Militia (Yemen)">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Umhadan, Yemen</data>
+  <data key="d2">2025-09-06</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Yemen (2022-2026) Presidential Leadership Council - STC Support and Reinforcement Brigades" target="AQAP: Al Qaeda in the Arabian Peninsula">
+  <data key="d0">government_regains_territory</data>
+  <data key="d1">Mudiyah, Yemen</data>
+  <data key="d2">2025-09-08</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Operation Restoring Hope" target="Explosions/Remote violence">
+  <data key="d0">shelling/artillery/missile_attack</data>
+  <data key="d1">Uzlat Ghafirah, Yemen</data>
+  <data key="d2">2025-09-09</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Israel (2022-)" target="Civilians (Palestine)">
+  <data key="d0">air/drone_strike</data>
+  <data key="d1">Gaza - Tal el Hawa, Palestine</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Israel (2022-)" target="Explosions/Remote violence">
+  <data key="d0">shelling/artillery/missile_attack</data>
+  <data key="d1">Gaza - Shujaiyya, Palestine</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Israel (2022-)" target="Strategic developments">
+  <data key="d0">change_to_group/activity</data>
+  <data key="d1">Breiqa, Syria</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Israel (2022-)" target="Hamas Movement">
+  <data key="d0">air/drone_strike</data>
+  <data key="d1">Jabalya, Palestine</data>
+  <data key="d2">2025-09-11</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Israel (2022-)" target="Military Forces of Yemen (2017-) Houthi">
+  <data key="d0">disrupted_weapons_use</data>
+  <data key="d1">North Red Sea (centroid), Indian Ocean</data>
+  <data key="d2">2025-09-11</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Israel (2022-)" target="PIJ: Palestinian Islamic Jihad">
+  <data key="d0">air/drone_strike</data>
+  <data key="d1">Gaza - Ash Shati' Camp, Palestine</data>
+  <data key="d2">2025-09-10</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Israel (2022-)" target="Military Forces of Syria (2024-)">
+  <data key="d0">air/drone_strike</data>
+  <data key="d1">Homs - Oras, Syria</data>
+  <data key="d2">2025-09-08</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Israel (2022-)" target="UNDOF: United Nations Disengagement Observer Force (1974-)">
+  <data key="d0">other</data>
+  <data key="d1">Mount Hermon, Syria</data>
+  <data key="d2">2025-09-09</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Israel (2022-)" target="Civilians (Yemen)">
+  <data key="d0">air/drone_strike</data>
+  <data key="d1">Al Hazm, Yemen</data>
+  <data key="d2">2025-09-10</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Israel (2022-)" target="Unidentified Armed Group (Syria)">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Quneitra, Syria</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Hamas Movement" target="Military Forces of Israel (2022-)">
+  <data key="d0">remote_explosive/landmine/ied</data>
+  <data key="d1">Tulkarm, Palestine</data>
+  <data key="d2">2025-09-11</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Al Bukhamiss Tribal Militia (Syria)" target="Al Bukhamiss Tribal Militia (Syria)">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Mansura, Syria</data>
+  <data key="d2">2025-09-06</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Islamic State in Iraq and the Levant (ISIL)" target="Asayish (Syria)">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Darnaj, Syria</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Islamic State in Iraq and the Levant (ISIL)" target="QSD: Syrian Democratic Forces">
+  <data key="d0">looting/property_destruction</data>
+  <data key="d1">Manakhir, Syria</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Islamic State in Iraq and the Levant (ISIL)" target="Civilians (Syria)">
+  <data key="d0">grenade</data>
+  <data key="d1">Al-Hessan, Syria</data>
+  <data key="d2">2025-09-11</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Asayish (Syria)" target="Asayish (Syria)">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Hole Camp, Syria</data>
+  <data key="d2">2025-09-08</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="QSD: Syrian Democratic Forces" target="Civilians (Syria)">
+  <data key="d0">shelling/artillery/missile_attack</data>
+  <data key="d1">Kiyariya, Syria</data>
+  <data key="d2">2025-09-10</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="QSD: Syrian Democratic Forces" target="Strategic developments">
+  <data key="d0">change_to_group/activity</data>
+  <data key="d1">Eastern Jurdi, Syria</data>
+  <data key="d2">2025-09-08</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="QSD: Syrian Democratic Forces" target="Military Forces of Syria (2024-)">
+  <data key="d0">shelling/artillery/missile_attack</data>
+  <data key="d1">Big Habbuba, Syria</data>
+  <data key="d2">2025-09-10</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="QSD: Syrian Democratic Forces" target="Explosions/Remote violence">
+  <data key="d0">shelling/artillery/missile_attack</data>
+  <data key="d1">Ras al Ahmar, Syria</data>
+  <data key="d2">2025-09-10</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Police Forces of Syria (2024-)" target="Civilians (Syria)">
+  <data key="d0">arrests</data>
+  <data key="d1">Nasib, Syria</data>
+  <data key="d2">2025-09-08</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Police Forces of Syria (2024-)" target="Anti-Military Operations Command Militia (Syria)">
+  <data key="d0">disrupted_weapons_use</data>
+  <data key="d1">Al-Bukamal - Unspecified, Syria</data>
+  <data key="d2">2025-09-07</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Police Forces of Syria (2024-)" target="Unidentified Armed Group (Syria)">
+  <data key="d0">disrupted_weapons_use</data>
+  <data key="d1">Ain al Arab - Unspecified, Syria</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Police Forces of Syria (2024-)" target="Police Forces of Syria (2024-)">
+  <data key="d0">arrests</data>
+  <data key="d1">Damascus - Barzeh, Syria</data>
+  <data key="d2">2025-09-10</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Police Forces of Syria (2024-)" target="Smugglers (Syria)">
+  <data key="d0">arrests</data>
+  <data key="d1">Lattakia - Unspecified, Syria</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Global Coalition Against Daesh" target="Strategic developments">
+  <data key="d0">change_to_group/activity</data>
+  <data key="d1">Shadadah, Syria</data>
+  <data key="d2">2025-09-10</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Turkey (2016-)" target="Strategic developments">
+  <data key="d0">change_to_group/activity</data>
+  <data key="d1">Sad Tishreen, Syria</data>
+  <data key="d2">2025-09-06</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Turkey (2016-) Gendarmerie" target="Civilians (Syria)">
+  <data key="d0">other</data>
+  <data key="d1">Qushla, Syria</data>
+  <data key="d2">2025-09-06</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Unidentified Armed Group (Syria)" target="Civilians (Syria)">
+  <data key="d0">other</data>
+  <data key="d1">Lahitha, Syria</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Unidentified Armed Group (Syria)" target="Explosions/Remote violence">
+  <data key="d0">remote_explosive/landmine/ied</data>
+  <data key="d1">Damascus - Barzeh, Syria</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Unidentified Armed Group (Syria)" target="Military Forces of Syria (2024-)">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Ras al-Ain, Syria</data>
+  <data key="d2">2025-09-11</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Unidentified Armed Group (Syria)" target="Police Forces of Syria (2024-)">
+  <data key="d0">shelling/artillery/missile_attack</data>
+  <data key="d1">Mzeireb, Syria</data>
+  <data key="d2">2025-09-07</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Unidentified Armed Group (Syria)" target="QSD: Syrian Democratic Forces">
+  <data key="d0">remote_explosive/landmine/ied</data>
+  <data key="d1">Al-Bahra, Syria</data>
+  <data key="d2">2025-09-11</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Police Forces of Russia (2000-) State Emergency Service" target="Unidentified Military Forces">
+  <data key="d0">disrupted_weapons_use</data>
+  <data key="d1">Tosno, Russia</data>
+  <data key="d2">2025-09-06</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Unidentified Military Forces" target="Civilians (Ukraine)">
+  <data key="d0">remote_explosive/landmine/ied</data>
+  <data key="d1">Novotroitske, Ukraine</data>
+  <data key="d2">2025-09-11</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Unidentified Military Forces" target="Police Forces of Ukraine (2019-)">
+  <data key="d0">remote_explosive/landmine/ied</data>
+  <data key="d1">Beryslav, Ukraine</data>
+  <data key="d2">2025-09-10</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Ukraine (2019-) Air Force" target="Explosions/Remote violence">
+  <data key="d0">air/drone_strike</data>
+  <data key="d1">Bohdanivske, Ukraine</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Ukraine (2019-) Air Force" target="Civilians (Russia)">
+  <data key="d0">air/drone_strike</data>
+  <data key="d1">Luga, Russia</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Ukraine (2019-) Air Force" target="Military Forces of Russia (2000-)">
+  <data key="d0">air/drone_strike</data>
+  <data key="d1">Sevastopol, Ukraine</data>
+  <data key="d2">2025-09-09</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Ukraine (2019-) Air Force" target="Civilians (Ukraine)">
+  <data key="d0">air/drone_strike</data>
+  <data key="d1">Oleshky, Ukraine</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Ukraine (2019-) Air Force" target="Military Forces of Russia (2000-) Navy">
+  <data key="d0">air/drone_strike</data>
+  <data key="d1">Novorossiysk, Russia</data>
+  <data key="d2">2025-09-10</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Ukraine (2019-) Air Force" target="Strategic developments">
+  <data key="d0">disrupted_weapons_use</data>
+  <data key="d1">Kopyllia, Ukraine</data>
+  <data key="d2">2025-09-11</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Ukraine (2019-) Air Force" target="Police Forces of Russian Occupation Government (2022-) State Emergency Service">
+  <data key="d0">air/drone_strike</data>
+  <data key="d1">Mykhailivka, Ukraine</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Russia (2000-) Navy" target="Unidentified Military Forces">
+  <data key="d0">disrupted_weapons_use</data>
+  <data key="d1">Baltiysk, Russia</data>
+  <data key="d2">2025-09-06</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Russia (2000-) Navy" target="Strategic developments">
+  <data key="d0">change_to_group/activity</data>
+  <data key="d1">Barentsz Sea (79.0484 38.4644), Arctic Ocean</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Russia (2000-)" target="Military Forces of Ukraine (2019-) Air Force">
+  <data key="d0">disrupted_weapons_use</data>
+  <data key="d1">Voronezh, Russia</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Russia (2000-)" target="Military Forces of Ukraine (2019-)">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Shakhove, Ukraine</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Russia (2000-)" target="Explosions/Remote violence">
+  <data key="d0">shelling/artillery/missile_attack</data>
+  <data key="d1">Zolota Balka, Ukraine</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Russia (2000-)" target="Civilians (Ukraine)">
+  <data key="d0">shelling/artillery/missile_attack</data>
+  <data key="d1">Kalynove, Ukraine</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Russia (2000-)" target="Military Forces of Russia (2000-) Military Police">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Vasylivka, Ukraine</data>
+  <data key="d2">2025-09-10</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Russia (2000-)" target="Military Forces of Ukraine (2019-) Marines">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Kherson, Ukraine</data>
+  <data key="d2">2025-09-11</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Russia (2000-)" target="Civilians (Russia)">
+  <data key="d0">shelling/artillery/missile_attack</data>
+  <data key="d1">Belgorod, Russia</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Ukraine (2019-)" target="Military Forces of Russia (2000-)">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Plavni, Ukraine</data>
+  <data key="d2">2025-09-11</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Ukraine (2019-)" target="Explosions/Remote violence">
+  <data key="d0">shelling/artillery/missile_attack</data>
+  <data key="d1">Zavodivka, Ukraine</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Ukraine (2019-)" target="Civilians (Ukraine)">
+  <data key="d0">shelling/artillery/missile_attack</data>
+  <data key="d1">Vilshana, Ukraine</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Ukraine (2019-)" target="Civilians (Russia)">
+  <data key="d0">shelling/artillery/missile_attack</data>
+  <data key="d1">Pogar, Russia</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Ukraine (2019-)" target="Military Forces of Russia (2000-) Air Force">
+  <data key="d0">disrupted_weapons_use</data>
+  <data key="d1">Dnipro, Ukraine</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Russia (2000-) Air Force" target="Explosions/Remote violence">
+  <data key="d0">air/drone_strike</data>
+  <data key="d1">Shakhove, Ukraine</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Russia (2000-) Air Force" target="Civilians (Ukraine)">
+  <data key="d0">air/drone_strike</data>
+  <data key="d1">Marhanets, Ukraine</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Russia (2000-) Air Force" target="Military Forces of Ukraine (2019-)">
+  <data key="d0">air/drone_strike</data>
+  <data key="d1">Vysoke, Ukraine</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Russia (2000-) Air Force" target="Police Forces of Ukraine (2019-) State Emergency Service of Ukraine">
+  <data key="d0">air/drone_strike</data>
+  <data key="d1">Kryvyi Rih, Ukraine</data>
+  <data key="d2">2025-09-08</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Russia (2000-) Air Force" target="Police Forces of Ukraine (2019-)">
+  <data key="d0">air/drone_strike</data>
+  <data key="d1">Sumy, Ukraine</data>
+  <data key="d2">2025-09-11</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Civilians (Ukraine)" target="Strategic developments">
+  <data key="d0">other</data>
+  <data key="d1">Lozova, Ukraine</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Unidentified Armed Group (Ukraine)" target="Civilians (Ukraine)">
+  <data key="d0">looting/property_destruction</data>
+  <data key="d1">Chernihiv, Ukraine</data>
+  <data key="d2">2025-09-09</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="West Coast Joint Forces" target="Unidentified Armed Group (International)">
+  <data key="d0">disrupted_weapons_use</data>
+  <data key="d1">Central Red Sea (centroid), Indian Ocean</data>
+  <data key="d2">2025-09-06</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="DFLP: Democratic Front for the Liberation of Palestine" target="Military Forces of Israel (2022-)">
+  <data key="d0">shelling/artillery/missile_attack</data>
+  <data key="d1">Morag, Palestine</data>
+  <data key="d2">2025-09-07</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Qarmim Tribal Militia (Yemen)" target="Tanabla Tribal Militia (Yemen)">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Yashbum, Yemen</data>
+  <data key="d2">2025-09-07</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Settlers (Israel)" target="Civilians (Palestine)">
+  <data key="d0">looting/property_destruction</data>
+  <data key="d1">Yuta, Palestine</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="PIJ: Palestinian Islamic Jihad" target="Explosions/Remote violence">
+  <data key="d0">shelling/artillery/missile_attack</data>
+  <data key="d1">Netivot, Israel</data>
+  <data key="d2">2025-09-07</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="PIJ: Palestinian Islamic Jihad" target="Military Forces of Israel (2022-)">
+  <data key="d0">shelling/artillery/missile_attack</data>
+  <data key="d1">Gaza - Ijdeedeh, Palestine</data>
+  <data key="d2">2025-09-09</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Syria (2024-)" target="QSD: Syrian Democratic Forces">
+  <data key="d0">shelling/artillery/missile_attack</data>
+  <data key="d1">Maskana, Syria</data>
+  <data key="d2">2025-09-10</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Unidentified Tribal Militia (Syria)" target="Unidentified Tribal Militia (Syria)">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Al-Asbah farms, Syria</data>
+  <data key="d2">2025-09-07</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Unidentified Armed Group (Russia)" target="Civilians (Russia)">
+  <data key="d0">looting/property_destruction</data>
+  <data key="d1">Vladikavkaz, Russia</data>
+  <data key="d2">2025-09-07</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of North Korea (2011-)" target="Strategic developments">
+  <data key="d0">change_to_group/activity</data>
+  <data key="d1">Guevo, Russia</data>
+  <data key="d2">2025-09-07</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Police Forces of Ukraine (2019-)" target="Military Forces of Russia (2000-) Air Force">
+  <data key="d0">disrupted_weapons_use</data>
+  <data key="d1">Nizhyn, Ukraine</data>
+  <data key="d2">2025-09-11</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Police Forces of Ukraine (2019-)" target="Unidentified Armed Group (Ukraine)">
+  <data key="d0">disrupted_weapons_use</data>
+  <data key="d1">Borshchiv, Ukraine</data>
+  <data key="d2">2025-09-09</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Police Forces of Israel (2022-)" target="Civilians (Palestine)">
+  <data key="d0">looting/property_destruction</data>
+  <data key="d1">Al Quds - Old City, Palestine</data>
+  <data key="d2">2025-09-11</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Police Forces of Israel (2022-)" target="Civilians (Israel)">
+  <data key="d0">looting/property_destruction</data>
+  <data key="d1">Segev Shalom, Israel</data>
+  <data key="d2">2025-09-11</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Unidentified Armed Group (Yemen)" target="Unidentified Armed Group (Ethiopia)">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Azzan, Yemen</data>
+  <data key="d2">2025-09-08</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Yemen (2022-2026) Presidential Leadership Council - Border Guard" target="Military Forces of Yemen (2017-) Houthi">
+  <data key="d0">looting/property_destruction</data>
+  <data key="d1">Razih, Yemen</data>
+  <data key="d2">2025-09-08</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="al-Jaabal Tribal Militia (Yemen)" target="Police Forces of Yemen (2022-2026) Presidential Leadership Council - STC Security Belt Forces">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Al Ayn, Yemen</data>
+  <data key="d2">2025-09-08</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Police Forces of Yemen (2022-2026) Presidential Leadership Council - STC Security Belt Forces" target="AQAP: Al Qaeda in the Arabian Peninsula">
+  <data key="d0">looting/property_destruction</data>
+  <data key="d1">Wadi Awmran, Yemen</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="PIJ: Katibat Qabatiyah" target="Military Forces of Israel (2022-)">
+  <data key="d0">remote_explosive/landmine/ied</data>
+  <data key="d1">Qabatiyah, Palestine</data>
+  <data key="d2">2025-09-08</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Sahm Unit" target="Unidentified Armed Group (Palestine)">
+  <data key="d0">armed_clash</data>
+  <data key="d1">An Nusayrat - Unspecified, Palestine</data>
+  <data key="d2">2025-09-08</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Unidentified Armed Group (Palestine)" target="Military Forces of Israel (2022-)">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Jenin - Unspecified, Palestine</data>
+  <data key="d2">2025-09-10</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Al Nasser Salah al Deen Brigades" target="Military Forces of Israel (2022-)">
+  <data key="d0">shelling/artillery/missile_attack</data>
+  <data key="d1">Al Qararah, Palestine</data>
+  <data key="d2">2025-09-08</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Ukraine (2019-) Main Directorate of Intelligence" target="Explosions/Remote violence">
+  <data key="d0">remote_explosive/landmine/ied</data>
+  <data key="d1">Penza, Russia</data>
+  <data key="d2">2025-09-08</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Ukraine (2019-) Main Directorate of Intelligence" target="Military Forces of Russia (2000-)">
+  <data key="d0">remote_explosive/landmine/ied</data>
+  <data key="d1">Krasnoarmeysk, Russia</data>
+  <data key="d2">2025-09-08</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Ukraine (2019-) Main Directorate of Intelligence" target="Military Forces of Russia (2000-) National Guard">
+  <data key="d0">remote_explosive/landmine/ied</data>
+  <data key="d1">Khabarovsk, Russia</data>
+  <data key="d2">2025-09-08</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Police Forces of Russia (2000-) Federal Security Service" target="Unidentified Armed Group (Azerbaijan)">
+  <data key="d0">disrupted_weapons_use</data>
+  <data key="d1">Essentuki, Russia</data>
+  <data key="d2">2025-09-08</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Ukraine (2019-) Marines" target="Military Forces of Russia (2000-)">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Kherson, Ukraine</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Police Forces of Ukraine (2019-) Security Service of Ukraine" target="Unidentified Armed Group (Ukraine)">
+  <data key="d0">disrupted_weapons_use</data>
+  <data key="d1">Lviv, Ukraine</data>
+  <data key="d2">2025-09-10</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="al-Hanashi Tribal Militia (Yemen)" target="al-Hashidi Tribal Militia (Yemen)">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Zinjibar, Yemen</data>
+  <data key="d2">2025-09-08</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Namliyah Communal Militia (Syria)" target="Namliyah Communal Militia (Syria)">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Namliyah, Syria</data>
+  <data key="d2">2025-09-09</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Police Forces of Ukraine (2019-) State Border Guard Service" target="Military Forces of Russia (2000-) Air Force">
+  <data key="d0">disrupted_weapons_use</data>
+  <data key="d1">Chernihiv, Ukraine</data>
+  <data key="d2">2025-09-09</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Dhu Darwan Tribal Militia (Yemen)" target="al-Thamthama Tribal Militia (Yemen)">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Wadi Khaywan, Yemen</data>
+  <data key="d2">2025-09-10</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Aleppo Communal Militia (Syria)" target="Aleppo Communal Militia (Syria)">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Hober, Syria</data>
+  <data key="d2">2025-09-10</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Atesh" target="Civilians (Russia)">
+  <data key="d0">looting/property_destruction</data>
+  <data key="d1">Tula, Russia</data>
+  <data key="d2">2025-09-10</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Fajih Tribal Militia (Yemen)" target="Hatik Tribal Militia (Yemen)">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Al Husun, Yemen</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Police Forces of Syria (2024-) General Intelligence Services" target="Hezbollah">
+  <data key="d0">arrests</data>
+  <data key="d1">Sa'sa', Syria</data>
+  <data key="d2">2025-09-11</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Russia (2000-) National Guard - Special Purpose Police Unit" target="Unidentified Military Forces">
+  <data key="d0">disrupted_weapons_use</data>
+  <data key="d1">Sevastopol, Ukraine</data>
+  <data key="d2">2025-09-11</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Unidentified Clan Militia (Palestine)" target="Hamas Movement">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Gaza - Unspecified, Palestine</data>
+  <data key="d2">2025-09-11</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Ukraine (2019-) Navy" target="Military Forces of Russia (2000-) Navy">
+  <data key="d0">shelling/artillery/missile_attack</data>
+  <data key="d1">Sevastopol, Ukraine</data>
+  <data key="d2">2025-09-11</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Government of Israel (2022-)" target="Strategic developments">
+  <data key="d0">other</data>
+  <data key="d1">Al Quds - Maale Adumim, Palestine</data>
+  <data key="d2">2025-09-11</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Mujahideen Brigades" target="Military Forces of Israel (2022-)">
+  <data key="d0">shelling/artillery/missile_attack</data>
+  <data key="d1">Bani Suheila, Palestine</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="The Popular Forces - Ghassan al-Duhini Group" target="Radea Unit">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Deir al Balah, Palestine</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Katibat Mukhayyam al Farah" target="Military Forces of Israel (2022-)">
+  <data key="d0">remote_explosive/landmine/ied</data>
+  <data key="d1">Farah Camp, Palestine</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="PIJ: Katibat Zububah" target="Military Forces of Israel (2022-)">
+  <data key="d0">grenade</data>
+  <data key="d1">Zububah, Palestine</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="al-Qayed Tribal Militia (Yemen)" target="al-Laaush Tribal Militia (Yemen)">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Al Musayniah, Yemen</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Military Forces of Russia (2000-) Marines" target="Military Forces of Ukraine (2019-)">
+  <data key="d0">armed_clash</data>
+  <data key="d1">Andriivka, Ukraine</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="Government of Russia (2000-)" target="Strategic developments">
+  <data key="d0">other</data>
+  <data key="d1">Moscow - Unspecified, Russia</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+<edge source="NSWP: National Socialism / White Power Crew" target="Civilians (Russia)">
+  <data key="d0">looting/property_destruction</data>
+  <data key="d1">Chesma, Russia</data>
+  <data key="d2">2025-09-12</data>
+  <data key="d3">ACLED</data>
+</edge>
+</graph></graphml>
